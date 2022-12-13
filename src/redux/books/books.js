@@ -2,12 +2,12 @@ const ADD_BOOK = 'Bookstore/books/ADD_BOOK';
 const REMOVE_BOOK = 'Bookstore/books/REMOVE_BOOK';
 
 const initialState = [{
-  id: 1,
+  id: '1',
   title: 'Clean Code',
   author: 'Robert Martin',
 },
 {
-  id: 2,
+  id: '2',
   title: 'Refactoring',
   author: 'Kent Beck',
 },
