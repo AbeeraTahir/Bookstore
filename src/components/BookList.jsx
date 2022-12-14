@@ -10,9 +10,14 @@ const BookList = () => {
     <div>
       <ul>
         {books.map((book) => (
-          <li key={book.id}>
-            <Book id={book.id} title={book.title} author={book.author} />
-            <button type="button" onClick={() => dispatch(removeBook(book.id))}>Remove</button>
+          <li key={book.item_id}>
+            <Book
+              item_id={book.item_id}
+              title={book.title}
+              author={book.author}
+              category={book.category}
+            />
+            <button type="button" onClick={() => dispatch(removeBook(book.item_id))}>Remove</button>
           </li>
         ))}
       </ul>
