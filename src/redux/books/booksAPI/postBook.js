@@ -11,7 +11,6 @@ const postBook = createAsyncThunk(ADD_BOOK, async (book, thunkAPI) => {
     },
   });
   const responseText = await response.text();
-
   thunkAPI.dispatch(addBook(book));
   return responseText;
 });

@@ -28,7 +28,7 @@ const bookReducer = (state = initialState, action) => {
     case ADD_BOOK:
       return [...state, action.book];
     case REMOVE_BOOK:
-      return state.filter((book) => book.id !== action.bookId);
+      return state.filter((book) => book.item_id !== action.bookId);
     case FETCH_BOOKS: {
       const bookList = [];
       Object.entries(action.books).forEach(([key, value]) => bookList.push({

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { removeBook } from '../redux/books/books';
+import deleteBook from '../redux/books/booksAPI/deleteBook';
 import Book from './Book';
 
 const BookList = () => {
@@ -16,7 +16,7 @@ const BookList = () => {
               author={book.author}
               category={book.category}
             />
-            <button type="button" onClick={() => dispatch(removeBook(book.item_id))}>Remove</button>
+            <button type="button" onClick={() => dispatch(deleteBook(book.item_id))}>Remove</button>
           </li>
         ))}
       </ul>
