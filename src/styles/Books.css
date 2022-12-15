@@ -122,8 +122,9 @@
   color: #fff;
   border-radius: 3px;
   padding: 8px 16px;
-  font-size: 0.75rem;
-  letter-spacing: 1.5px;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .book-title,
