@@ -25,10 +25,6 @@
   text-transform: capitalize;
 }
 
-.title {
-  letter-spacing: -0.2px;
-}
-
 .author {
   color: #4386bf;
 }
@@ -65,9 +61,9 @@
   border: 5px solid #4386bf;
   border-left-color: #f3f3f3;
   border-radius: 50%;
-  height: 4.25rem;
+  height: 68px;
   transform: rotate(45deg);
-  width: 4.25rem;
+  width: 68px;
 }
 
 .percentage {
@@ -127,7 +123,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.book-title,
+.title,
 .author,
 .btn,
 .cur-chapter,

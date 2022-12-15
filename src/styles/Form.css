@@ -24,6 +24,7 @@ select {
   background-color: #fff;
   border: 1px solid #e8e8e8;
   font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
 }
 
 #input-title {
@@ -57,4 +58,5 @@ select {
   letter-spacing: 0.5px;
   background-color: #0290ff;
   font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
 }
