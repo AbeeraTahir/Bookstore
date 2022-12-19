@@ -70,7 +70,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://friendly-manatee-6f4f18.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
