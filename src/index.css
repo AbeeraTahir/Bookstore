@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
+:root {
+  --primary-blue: #0290ff;
+  --secondary-blue: #4386bf;
+  --primary-dark: #121212;
+  --primary-white: #fff;
+  --light-border: #e8e8e8;
+  --primary-font: 'Montserrat', sans-serif;
+  --secondary-font: 'Roboto Slab', serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +17,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--primary-font);
   background: #0000000d;
-  color: #121212;
+  color: var(--primary-dark);
 }

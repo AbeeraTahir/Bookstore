@@ -3,7 +3,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 15px 100px;
-  background-color: #fff;
+  background-color: var(--primary-white);
   letter-spacing: 1.9px;
 }
 
@@ -13,7 +13,7 @@ nav {
 }
 
 nav h1 {
-  color: #0290ff;
+  color: var(--primary-blue);
   font-weight: bold;
   font-size: 1.875rem;
 }
@@ -27,13 +27,13 @@ nav ul {
 
 a {
   text-decoration: none;
-  color: #121212;
+  color: var(--primary-dark);
   opacity: 0.5;
 }
 
 .avatar {
-  color: #0290ff;
-  border: 1px solid #e8e8e8;
+  color: var(--primary-blue);
+  border: 1px solid var(--light-border);
   border-radius: 50%;
   width: 45px;
   height: 45px;
@@ -48,6 +48,6 @@ a {
 }
 
 .activelink {
-  color: #121212;
+  color: var(--primary-dark);
   opacity: 1;
 }
