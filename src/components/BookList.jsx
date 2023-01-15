@@ -29,8 +29,7 @@ const BookList = () => {
             <div className="progress-circle" />
             <div className="percentage">
               <p className="percent">
-                {Math.floor(Math.random() * 101)}
-                %
+                75%
               </p>
               <p className="completed">Completed</p>
             </div>

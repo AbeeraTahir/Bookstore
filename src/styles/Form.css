@@ -21,8 +21,8 @@ input,
 select {
   padding: 16px;
   border-radius: 4px;
-  background-color: #fff;
-  border: 1px solid #e8e8e8;
+  background-color: var(--primary-white);
+  border: 1px solid var(--light-border);
   font-family: 'Montserrat', sans-serif;
   font-size: 0.9rem;
 }
@@ -45,7 +45,7 @@ select {
 #input-title:focus,
 #input-author:focus,
 #input-category:focus {
-  border: 0.5px solid #121212;
+  border: 0.5px solid var(--primary-dark);
   opacity: 0.5;
   outline: none;
 }
@@ -53,10 +53,10 @@ select {
 .btn-add-book {
   flex: 0.45;
   border: none;
-  color: #fff;
+  color: var(--primary-white);
   border-radius: 3px;
   letter-spacing: 0.5px;
-  background-color: #0290ff;
-  font-family: 'Montserrat', sans-serif;
+  background-color: var(--primary-blue);
+  font-family: var(--primary-font);
   cursor: pointer;
 }
