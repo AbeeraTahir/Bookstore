@@ -35,10 +35,6 @@
   margin-top: 16px;
 }
 
-.remove-btn {
-  cursor: pointer;
-}
-
 .divider {
   height: 16px;
   border: 1px solid #e5e5e7;
@@ -48,6 +44,7 @@
   color: var(--secondary-blue);
   background: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .progress {
