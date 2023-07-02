@@ -1,0 +1,20 @@
+.comments {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.comments-head {
+  display: flex;
+}
+
+.comments-heading {
+  flex: 1;
+  text-align: center;
+}
+
+.add-comment {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

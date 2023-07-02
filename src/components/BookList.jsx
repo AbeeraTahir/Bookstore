@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Modal from 'react-modal';
-import { FaXmark } from 'react-icons/fa6';
 import deleteBook from '../redux/books/booksAPI/deleteBook';
 import Book from './Book';
+import Comments from './Comments';
 import '../styles/Books.css';
 
+// style for comments modal
 const commentModal = {
   content: {
     top: '50%',
@@ -13,6 +14,7 @@ const commentModal = {
     right: 'auto',
     bottom: 'auto',
     width: '40%',
+    height: '80%',
     transform: 'translate(-50%, -50%)',
   },
 };
@@ -31,9 +33,7 @@ const BookList = () => {
       {books.map((book) => (
         <li key={book.item_id}>
           <Modal isOpen={modalIsOpen} onRequestClose={closeModal} style={commentModal}>
-            <h2>Custom Modal</h2>
-            <p>this is a custom modal</p>
-            <FaXmark onClick={closeModal} />
+            <Comments closeModal={closeModal} />
           </Modal>
           <div className="book-details">
             <Book
