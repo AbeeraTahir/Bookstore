@@ -26,7 +26,7 @@
 
 # 📖 Bookstore <a name="about-project"></a>
 
-**Bookstore** is a website that allows users to see the list of books, add a book to the list, and remove a book from the list. It is built with React and Redux.
+**Bookstore** is a website that allows users to see the list of books, add a book to the list, and remove a book from the list. It is built with React, Redux, and Bookstore API.
 
 ## 🛠 Built With <a name="built-with"></a>
 
